@@ -1,0 +1,6 @@
+FREQUENCY RANGE RECORDED: 	20MHz, center freq=915MHz
+FFT SIZE: 					65535
+FFT FRAME RATE: 			1000 frames / sec
+
+This is a version of the REC2, but with an additional frequency hopping radio - the interfering radio. The transmissions from the interferer are shorter in duration 
+and narrower.
