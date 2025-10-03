@@ -1,5 +1,0 @@
-FREQUENCY RANGE RECORDED: 	6MHz, center freq=915MHz
-FFT SIZE: 					65535
-FFT FRAME RATE: 			20000 frames / sec
-
-This is a zoomed-in version of the REC2. The frequency span is reduced by ~3x, the FFT rate is increased by 20x.
