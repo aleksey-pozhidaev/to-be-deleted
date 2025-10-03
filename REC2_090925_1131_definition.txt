@@ -1,7 +1,0 @@
-FREQUENCY RANGE RECORDED: 	20MHz, center freq=915MHz
-FFT SIZE: 					65535
-FFT FRAME RATE: 			1000 frames / sec
-
-Frequency hopping - each RF packet (the RED RECTANGLE) is between 19msec and 78msec in duration (vertical scale)
-Each RF packet is modulated with Chirp Spread Spectrum (CSS). The CSS deviation is 400kHz. The RF data rate is 3kHz.
-The frequency channel separation is 603kHz. In the 20MHz frequency range recorded should be up to 33 frequency channels.
