@@ -1,0 +1,61 @@
+SCREEN_REPORT
+SUPRESS_TEXT
+'Rnd, 32, E1, FF, FF, FF, FF, 00, 1C, 19, 02, 00, 04, 0C
+'1      2         3            4   5             6   7     8    9     10      11    12     13    14   15    16
+'       UTC       Lat          N/S Long          W/E Qual. Sat. Dil   Alt     Units Separ. Units Age  Corr. CRC
+'$GPGGA,181908.00,3404.7041778,N,  07044.3966270,W,  4,    13,  1.00, 495.144,M,    29.200,M,    0.10,0000  *40
+
+'MODIFY THE VALUES BELOW FOR YOUR TESTS
+'
+'LINES STARTING WITH "'" ARE COMMENTS
+'
+
+
+';;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+'Sonde #1
+'Define the GPS start position: Latitide(deg), Longitude(deg), and Altitude(m)
+GPS1: 		181908.01,3404.7041778,N,07044.3966270,W,4,13,1.00,495.144,M,29.200,M,0.10,0000*40
+
+'Latitude change in 1 sec. A change of 1deg = 69 miles
+DLAT1: 		10.3002
+
+'Longitude change in 1 sec. A change of 1deg = 69.17 miles
+DLON1: 		-10.001
+
+'Altitude change in 1 sec.
+DALT1: 		20
+
+'Starting pressure value and its 1sec. delta (hPa)
+PREAS1: 	1013.25
+DPREAS1: 	2
+
+'Starting temperature value and  its 1sec. delta (deg C)
+TEMP1: 		25.5
+DTEMP1:		-2.23
+
+'Starting battery voltage value and its 1sec. delta (V)
+VOLT1: 		3.301
+DVOLT1: 	-0.15
+
+'Radiosonde ID
+ID1: 		23
+
+'RF Packet start Seq. Number
+SEQ1: 		23
+
+'Starting humidity value and 1 sec. delta (%)
+HUM1: 		30.1
+DHUM1: 		-3.2
+
+'Starting RSSI value and 1 sec. delta (dBm)
+RSSI1: 		20
+DRSSI1: 	-2.2
+
+'Starting SignalQuality value and 1 sec. delta (dec.)
+SIGQUAL1: 	100
+DSIGQUAL1: 	-1.1
+
+'Starting TDMASlot value and 1 sec. delta (dec.)
+TDMA1: 		2
+
+LOOP
